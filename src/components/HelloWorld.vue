@@ -170,7 +170,7 @@ body {
   margin: 10px;
   padding: 10px;
   background-color: #004aad;
-  background: url("img/food-icons_2.png");
+  background: url("src/assets/img/food-icons_2.png");
 }
 
 #page-container {
@@ -582,7 +582,7 @@ img {
 }
 
 #modal {
-  background: url("img/food-icons_2.png");
+  background: url("src/assets/img/food-icons_2.png");
   padding: 20px;
   height: 80%;
   max-width: 600px;
@@ -629,7 +629,7 @@ footer {
   justify-content: center;
   color: #f3c613;
   background-repeat: round;
-  background-image: url(/img/header-img/yellow-brick.jpg);
+  background-image: url(src/assets/img/header-img/yellow-brick.jpg);
 }
 
 #scrolling-text {
@@ -710,7 +710,7 @@ footer {
 }
 
 #modal-2 {
-  background: url("img/food-icons_2.png");
+  background: url("src/assets/img/food-icons_2.png");
   padding: 20px;
   height: 80%;
   max-width: 600px;
