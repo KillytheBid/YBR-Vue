@@ -8,21 +8,13 @@ defineProps({
 </script>
 
 <template>
-  <!-- <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a target="_blank" href="https://vitejs.dev/">Vite</a> +
-      <a target="_blank" href="https://vuejs.org/">Vue 3</a>.
-    </h3>
-  </div> -->
   <html lang="en">
     <body>
       <header>
         <div class="header-contact-button">
           <a href="mailto:hey@downtofoodtruck.com" id="contact">
             <button class="contact-button">
-              <img src="img/email-icon.png" alt="Contact" />
+              <img src="src/assets/img/email-icon.png" alt="Contact" />
             </button>
           </a>
         </div>
@@ -33,7 +25,7 @@ defineProps({
             target="_blank"
           >
             <button class="contact-button">
-              <img src="img/instagram-icon.png" alt="Instagram" />
+              <img src="src/assets/img/instagram-icon.png" alt="Instagram" />
             </button>
           </a>
         </div>
@@ -42,12 +34,13 @@ defineProps({
             Continue As Guest
           </button>
         </div>
-        <img src="/img/DTFT-Logo-Blue-2500x1500.png" class="over-img" />
+        <img
+          src="src/assets/img/DTFT-Logo-Blue-2500x1500.png"
+          class="over-img"
+        />
       </header>
       <div class="mobile wiggle">
-        <button class="guest" onclick="window.location.href='index.html'">
-          Continue As Guest
-        </button>
+        <button class="guest">Continue As Guest</button>
       </div>
       <div id="page-container">
         <div id="content-wrapper">
@@ -127,7 +120,11 @@ defineProps({
               <div id="modal-button-right">
                 <button id="close-modal">Close</button>
               </div>
-              <img src="img/YBR-Group.png" alt="YBR Group" class="ybr-image" />
+              <img
+                src="src/assets/img/YBR-Group.png"
+                alt="YBR Group"
+                class="ybr-image"
+              />
               <br />
               <div>
                 <h2>About Yellow Brick Road</h2>
@@ -197,7 +194,7 @@ header {
   font-size: 100px;
   font-weight: bold;
   background-repeat: round;
-  background-image: url(/home/will/Development/Projects/YBR Vue/YBR/src/assets/img/header-img/yellow-brick.jpg);
+  background-image: url(src/assets/img/header-img/yellow-brick.jpg);
 }
 
 .top-left {
