@@ -36,7 +36,7 @@ import Vue from "vue" require("@src/assets/style/truck.css")
       <div id="page-container">
         <div id="content-wrapper">
           <!-- <p class="instructions">Are you Down To Food Truck?</p> 
-              <p class="instructions">Select a food category to get started!</p> -->
+              <p class="instructions">Select a food c ategory to get started!</p> -->
           <div id="container-message">
             <span id="text1"></span>
             <span id="text2"></span>
